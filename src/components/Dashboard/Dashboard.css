@@ -1,0 +1,100 @@
+
+ /* --------- container ----------  */
+
+.container-wrapper {
+    background: rgb(231, 228, 228) !important;
+    min-height: 70rem; 
+}
+.container-size{
+    background-color: white !important;
+    padding: 15px;
+    
+}
+
+
+ /* --------- container header ----------  */
+
+input[type=search]{
+    background: rgb(231, 228, 228);
+}
+.header-icons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 800;
+    padding: 15px;
+    margin-right: 19px;
+}
+.mr-5 {
+    margin-right: 25px !important;
+}
+.header-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.profile-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+
+ /* --------- card ----------  */ 
+
+.card-wrapper{
+    padding: 15px;
+}
+.card-value {
+    display: flex;
+    flex-direction: row;
+}
+.cus-value{
+    background-color: rgb(232, 237, 238);
+    color: rgb(131, 240, 167);
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 3px;
+}
+.cus-value-red{
+    background-color: rgb(232, 237, 238);
+    color: rgb(245, 110, 110);
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 3px;
+}
+.card-icon-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.card-icon{
+    border-radius: 50px;
+    margin-left: 12px !important;
+    padding: 10px;
+}
+.card-icon1{
+    background-color: rgb(190, 190, 241);
+}
+.card-icon2{
+     background-color: rgb(223, 223, 137);   
+}
+.card-icon3{
+    background-color: rgb(145, 221, 145);   
+}
+.card-icon4{
+    background-color: rgb(231, 116, 116);
+}
+
+/* --------- Table ----------  */
+
+.table-top-heading {
+    display: flex;
+    justify-content: flex-start;
+}
+.table-top-btn {
+    display: flex;
+    justify-content: flex-end;
+}
